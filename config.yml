@@ -1,0 +1,205 @@
+# Homepage configuration
+# See https://fontawesome.com/icons for icons options
+
+# Optional: Use external configuration file.
+# Using this will ignore remaining config in this file
+# externalConfig: https://example.com/server-luci/config.yaml
+
+title: "App dashboard"
+subtitle: "Homer"
+# documentTitle: "Welcome" # Customize the browser tab text
+logo: "assets/logo.png"
+# Alternatively a fa icon can be provided:
+# icon: "fas fa-skull-crossbones"
+
+header: false # Set to false to hide the header
+# Optional: Different hotkey for search, defaults to "/"
+# hotkey:
+#   search: "Shift"
+footer: false
+
+columns: "3" # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
+connectivityCheck: true # whether you want to display a message when the apps are not accessible anymore (VPN disconnected for example)
+
+# Optional: Proxy / hosting option
+proxy:
+  useCredentials: false # send cookies & authorization headers when fetching service specific data. Set to `true` if you use an authentication proxy. Can be overrided on service level.
+
+# Optional theming
+theme: default # 'default' or one of the themes available in 'src/assets/themes'.
+
+# Optional custom stylesheet
+# Will load custom CSS files. Especially useful for custom icon sets.
+# stylesheet:
+#   - "assets/custom.css"
+
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#2E3440"
+    highlight-secondary: "#4C566A"
+    highlight-hover: "#81A1C1"
+    background: "#3B4252"
+    card-background: "#2E3440"
+    text: "#D8DEE9"
+    text-header: "#D8DEE9"
+    text-title: "#81A1C1"
+    text-subtitle: "#81A1C1"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link-hover: "#BF616A"
+
+
+
+# Optional message
+message:
+  # url: "https://<my-api-endpoint>" # Can fetch information from an endpoint to override value below.
+  # mapping: # allows to map fields from the remote format to the one expected by Homer
+  #   title: 'id' # use value from field 'id' as title
+  #   content: 'value' # value from field 'value' as content
+  # refreshInterval: 10000 # Optional: time interval to refresh message
+  #
+  # Real example using chucknorris.io for showing Chuck Norris facts as messages:
+  # url: https://api.chucknorris.io/jokes/random
+  # mapping:
+  #   title: 'id'
+  #   content: 'value'
+  # refreshInterval: 10000
+#  style: "is-warning"
+ # title: "Optional message!"
+ # icon: "fa fa-exclamation-triangle"
+  #content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links: []
+#  - name: "Link 1"
+#    icon: "fab fa-github"
+#    url: "https://github.com/bastienwirtz/homer"
+#    target: "_blank" # optional html tag target attribute
+#  - name: "link 2"
+#    icon: "fas fa-book"
+#    url: "https://github.com/bastienwirtz/homer"
+  # this will link to a second homer page that will load config from page2.yml and keep default config values as in config.yml file
+  # see url field and assets/page.yml used in this example:
+#  - name: "Second Page"
+#    icon: "fas fa-file-alt"
+#    url: "#page2"
+
+# Services
+# First level array represents a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "Applications"
+    icon: "fas fa-laptop"
+    # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
+    # logo: "path/to/logo"
+    items:
+      - name: "Nextcloud"
+        logo: "assets/tools/app-nextcloud.svg"
+        # Alternatively a fa icon can be provided:
+        # icon: "fab fa-jenkins"
+        subtitle: "file synchronization and calendar"
+        tag: "app"
+        url: "https://nextcloud.dictummortuum.com"
+        target: "_blank"
+      - name: "Transmission"
+        logo: "assets/tools/app-transmission.svg"
+        subtitle: "torrent client"
+        tag: "app"
+        target: "_blank"
+        url: "https://satellite.dictummortuum.com/transmission/web/#cancel"
+      - name: "Admin"
+        logo: "assets/tools/app-admin.svg"
+        subtitle: "backoffice admin"
+        tag: "app"
+        target: "_blank"
+        url: "http://admin.dictummortuum.com"
+      - name: "Brother HL-L2340D"
+        logo: "assets/tools/app-printer.svg"
+        subtitle: "printer"
+        tag: "app"
+        target: "_blank"
+        url: "http://typographus.dictummortuum.com/general/status.html"
+      - name: "MiniDLNA"
+        logo: "assets/tools/app-dlna.svg"
+        subtitle: "DLNA server"
+        tag: "app"
+        target: "_blank"
+        url: "http://satellite.dictummortuum.com:8200"
+  - name: "Tech"
+    icon: "fas fa-code-branch"
+    items:
+      - name: "Ubiquiti"
+        logo: "assets/tools/app-ubiquiti.svg"
+        subtitle: "router"
+        tag: "app"
+        url: "https://router.dictummortuum.com"
+        target: "_blank"
+      - name: "phpMyAdmin"
+        logo: "assets/tools/app-mariadb.svg"
+        subtitle: "mariadb admin panel"
+        tag: "app"
+        url: "https://db.dictummortuum.com"
+        target: "_blank"
+      - name: "phpLDAPAdmin"
+        logo: "assets/tools/app-ldap.svg"
+        subtitle: "LDAP admin panel"
+        tag: "app"
+        target: "_blank"
+        url: "https://satellite.dictummortuum.com/phpldapadmin/"
+      - name: "PiHole"
+        logo: "assets/tools/app-pihole.svg"
+        subtitle: "DNS"
+        tag: "app"
+        url: "https://dns.dictummortuum.com/admin"
+        target: "_blank"
+      - name: "Gitea"
+        logo: "assets/tools/app-gitea.svg"
+        subtitle: "self-hosted git service"
+        tag: "app"
+        url: "https://git.dictummortuum.com"
+        target: "_blank"
+      - name: "Syncthing"
+        logo: "assets/tools/app-syncthing.svg"
+        subtitle: "file synchronization"
+        tag: "app"
+        url: "https://satellite.dictummortuum.com/syncthing"
+        target: "_blank"
+      - name: "Portainer"
+        logo: "assets/tools/app-portainer.svg"
+        subtitle: "container management"
+        tag: "app"
+        url: "http://sol.dictummortuum.com:9000"
+        target: "_blank"
+  - name: "Monitoring"
+    icon: "fas fa-heartbeat"
+    items:
+      - name: "Grafana"
+        logo: "assets/tools/app-grafana.svg"
+        subtitle: "grafana monitoring"
+        tag: "app"
+        url: "https://grafana.dictummortuum.com"
+        target: "_blank"
+      - name: "Prometheus"
+        logo: "assets/tools/app-phpmyadmin.svg"
+        subtitle: "time-series database"
+        tag: "app"
+        url: "http://sol.dictummortuum.com:9090"
+        target: "_blank"
+      - name: "Expenses"
+        logo: "assets/tools/app-expense.svg"
+        subtitle: "expenses graph"
+        tag: "app"
+        url: "https://servus.dictummortuum.com/expenses"
+        target: "_blank"

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 479.99998 479.99998"
+   id="svg4171"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="app-dlna.svg">
+  <title
+     id="title4787">DLNA logo</title>
+  <defs
+     id="defs4173" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="2592.6515"
+     inkscape:cy="-104.50327"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1265"
+     inkscape:window-height="1396"
+     inkscape:window-x="1285"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     units="px" />
+  <metadata
+     id="metadata4176">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>DLNA logo</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:date>14/11/2016</dc:date>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>CMetalCore</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>dlna.org</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:source>dlna.org</dc:source>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-148.38757,112.76408)">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.24206272"
+       d="m 366.18747,243.27684 c -28.11227,-4.27017 -55.734,-17.36664 -74.56268,-35.35287 -6.45111,-6.16251 -6.89213,-6.7716 -6.68449,-9.23243 0.38571,-4.57089 -0.3183,-4.49695 42.76963,-4.49479 42.89438,0 44.91435,0.17236 53.76461,4.5293 3.69847,1.82077 6.85796,4.38485 13.10688,10.63703 11.38747,11.39339 17.9103,14.28335 30.40261,13.46992 7.46091,-0.48577 13.21708,-2.62256 19.09952,-7.0901 18.4702,-14.02756 18.4702,-42.43145 0,-56.45895 -6.32036,-4.80015 -11.59418,-6.65336 -20.17973,-7.0911 -12.12227,-0.61809 -18.88423,2.54214 -29.97035,14.00677 -4.95082,5.1198 -7.98523,7.56882 -11.83707,9.55333 -9.41994,4.85324 -7.90863,4.7309 -58.45622,4.7309 h -45.87709 l -4.06973,-1.92489 c -5.08092,-2.40313 -7.7078,-5.03162 -10.44231,-10.44867 -5.48565,-10.86703 -8.04906,-23.56845 -8.05353,-39.90457 -0.006,-16.91802 3.49334,-34.019625 8.86065,-43.319176 2.50396,-4.3385 7.29872,-8.030428 12.43788,-9.577086 5.11129,-1.538268 89.59498,-1.445845 96.17362,0.105331 8.31716,1.960968 13.13639,5.006103 21.63601,13.671215 6.10705,6.225935 8.81344,8.416874 12.64827,10.239358 14.21535,6.755718 29.44015,4.100678 40.57038,-7.075018 8.00502,-8.037753 10.90711,-15.91954 10.23055,-27.785209 -0.33109,-5.806686 -0.72871,-7.285806 -3.41699,-12.711037 -8.17614,-16.500071 -26.91686,-24.187623 -43.75324,-17.947792 -6.33611,2.348263 -9.41944,4.609275 -17.3889,12.751283 -7.74024,7.907826 -12.88106,11.159839 -20.36927,12.885316 -2.05187,0.472835 -18.77979,0.769428 -44.02697,0.780638 -45.20083,0.01898 -44.00258,0.146564 -44.01105,-4.648588 -0.002,-1.996652 0.9512,-3.280382 6.1598,-8.282501 14.66435,-14.083105 35.3567,-25.765127 56.32168,-31.796882 12.6514,-3.639895 22.0051,-4.966446 37.78635,-5.358957 16.81092,-0.4181393 26.67251,0.595515 41.10113,4.224655 41.40957,10.415506 74.75502,37.962993 89.12529,73.628591 2.99702,7.438298 6.29489,19.342699 6.29489,22.722729 0,3.8069 -2.17809,7.29707 -5.49352,8.80288 -2.85288,1.29575 -6.15604,1.36999 -61.10226,1.37319 -63.93406,0.002 -63.9628,0.002 -73.25534,-4.52359 -3.68227,-1.7933 -6.63656,-4.20069 -12.60327,-10.27012 -8.10565,-8.245101 -12.41043,-11.108727 -19.58466,-13.028007 -4.96021,-1.326961 -13.12958,-1.264783 -18.52837,0.141149 -16.81474,4.378529 -28.52966,22.534298 -25.63817,39.733978 3.50049,20.82221 23.96281,34.27449 44.14067,29.01881 7.19884,-1.87504 11.36564,-4.64704 19.63503,-13.06232 6.15601,-6.26465 8.78231,-8.38074 12.64399,-10.18783 9.51566,-4.45293 9.41616,-4.44688 73.56011,-4.45972 65.82128,-0.0135 62.2241,-0.31667 65.0578,5.4888 1.27729,2.61676 1.33456,3.42198 0.56329,7.91962 -2.16581,12.63004 -9.90939,30.40728 -18.35391,42.13565 -20.43689,28.38436 -54.14408,48.13576 -91.38934,53.5514 -10.08453,1.46634 -35.18628,1.42763 -45.04218,-0.0695 z"
+       id="path4774" />
+  </g>
+</svg>
