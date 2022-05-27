@@ -59,8 +59,6 @@ colors:
     card-shadow: rgba(0, 0, 0, 0.4)
     link-hover: "#BF616A"
 
-
-
 # Optional message
 message:
   # url: "https://<my-api-endpoint>" # Can fetch information from an endpoint to override value below.
@@ -119,6 +117,18 @@ services:
         tag: "app"
         target: "_blank"
         url: "https://satellite.dictummortuum.com/transmission/web/#cancel"
+      - name: "Mealie"
+        logo: "assets/tools/app-mealie.svg"
+        subtitle: "Recipe manager"
+        tag: "app"
+        target: "_blank"
+        url: "https://mealie.dictummortuum.com"
+      - name: "Navidrome"
+        logo: "assets/tools/app-navidrome.svg"
+        subtitle: "Streaming Service"
+        tag: "app"
+        target: "_blank"
+        url: "https://music.dictummortuum.com"
       - name: "Admin"
         logo: "assets/tools/app-admin.svg"
         subtitle: "backoffice admin"
@@ -182,6 +192,12 @@ services:
         tag: "app"
         url: "http://sol.dictummortuum.com:9000"
         target: "_blank"
+      - name: "Cyberchef"
+        logo: "assets/tools/app-cyberchef.svg"
+        subtitle: "The Cyber Swiss Army Knife"
+        tag: "app"
+        target: "_blank"
+        url: "https://cyberchef.dictummortuum.com"
   - name: "Monitoring"
     icon: "fas fa-heartbeat"
     items:
