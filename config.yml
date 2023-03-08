@@ -18,7 +18,7 @@ header: false # Set to false to hide the header
 #   search: "Shift"
 footer: false
 
-columns: "3" # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
+columns: "4" # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
 connectivityCheck: true # whether you want to display a message when the apps are not accessible anymore (VPN disconnected for example)
 
 # Optional: Proxy / hosting option
@@ -98,6 +98,33 @@ links: []
 # First level array represents a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
+  - name: "Popular"
+    icon: "fa fa-fire"
+    items:
+      - name: "Facebook"
+        icon: "fa-brands fa-facebook"
+        url: "https://www.facebook.com"
+      - name: "Messenger"
+        icon: "fa-brands fa-facebook-messenger"
+        url: "https://www.messenger.com"
+      - name: "Github"
+        icon: "fa-brands fa-github"
+        url: "https://www.github.com"
+      - name: "Discord"
+        icon: "fa-brands fa-discord"
+        url: "https://www.discord.com/app"
+      - name: "Slack"
+        icon: "fa-brands fa-slack"
+        url: "https://app.slack.com"
+      - name: "Boardgamegeek"
+        icon: "fa-solid fa-chess-board"
+        url: "https://boardgamegeek.com/"
+      - name: "Hacker News"
+        icon: "fa-brands fa-hacker-news"
+        url: "https://news.ycombinator.com/"
+      - name: "Gmail"
+        icon: "fa-solid fa-envelope"
+        url: "https://gmail.com/"
   - name: "Applications"
     icon: "fas fa-laptop"
     # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
@@ -135,6 +162,12 @@ services:
         tag: "app"
         target: "_blank"
         url: "http://admin.dictummortuum.com"
+      - name: "Admin2"
+        logo: "assets/tools/app-admin.svg"
+        subtitle: "backoffice admin"
+        tag: "app"
+        target: "_blank"
+        url: "http://admin2.dictummortuum.com"
       - name: "Brother HL-L2340D"
         logo: "assets/tools/app-printer.svg"
         subtitle: "printer"
