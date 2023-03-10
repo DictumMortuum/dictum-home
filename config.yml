@@ -125,6 +125,12 @@ services:
       - name: "Gmail"
         icon: "fa-solid fa-envelope"
         url: "https://gmail.com/"
+      - name: "Youtube"
+        icon: "fa-brands fa-youtube"
+        url: "https://www.youtube.com/"
+      - name: "Bank"
+        icon: "fa-solid fa-piggy-bank"
+        url: "https://ebanking.eurobank.gr"
   - name: "Applications"
     icon: "fa fa-desktop"
     # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
