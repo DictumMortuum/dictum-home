@@ -28,6 +28,10 @@ proxy:
 # Optional theming
 theme: default # 'default' or one of the themes available in 'src/assets/themes'.
 
+defaults:
+  layout: "list"
+  colorTheme: "dark"
+
 # Optional custom stylesheet
 # Will load custom CSS files. Especially useful for custom icon sets.
 # stylesheet:
@@ -158,7 +162,7 @@ services:
         icon: "fa-solid fa-music"
         subtitle: "music collection manager"
         target: "_blank"
-        url: "https://bazarr.dictummortuum.com"
+        url: "https://lidarr.dictummortuum.com"
       - name: "Bazarr"
         icon: "fa fa-closed-captioning"
         subtitle: "subtitles manager"
